@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="79px" viewBox="0 0 63 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Location icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-68.6%" y="-49.2%" width="237.2%" height="198.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M22.000075,35.6164384 C14.2803149,35.6164384 8,29.4029551 8,21.765527 C8,14.1280989 14.280465,7.91476408 22.000075,7.91476408 C29.7196851,7.91476408 36,14.1282473 36,21.7656755 C36,29.4031036 29.7196851,35.6164384 22.000075,35.6164384 Z" id="path-2"></path>
+        <filter x="-25.0%" y="-18.0%" width="150.0%" height="150.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web-1920-px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Site-annonce---1920px---v2" transform="translate(-1192.000000, -154.000000)">
+            <g id="map" transform="translate(1075.000000, 129.000000)">
+                <g id="maps-and-flags-copy-2" filter="url(#filter-1)" transform="translate(127.000000, 29.893455)">
+                    <g id="Location-icon">
+                        <path d="M21.5,2.13162821e-14 C9.64483597,2.13162821e-14 0,9.64404357 0,21.4981177 C0,36.2093942 19.2403938,57.8064078 20.0595706,58.7186164 C20.8290055,59.5755221 22.1723859,59.5740149 22.9404294,58.7186164 C23.7596062,57.8064078 43,36.2093942 43,21.4981177 C42.9997681,9.64404357 33.3550481,2.13162821e-14 21.5,2.13162821e-14 Z" id="Path" fill="#F28E1F"></path>
+                        <g id="Path">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

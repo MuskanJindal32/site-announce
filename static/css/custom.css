@@ -1,0 +1,465 @@
+/* Primary Color : #1070e4 */
+/* Secondary Color : #edf7ff */
+/* Heading Color   : #24202e */
+/* Paragraph Color : #77838f */
+
+@import url("https://fonts.googleapis.com/css?family=Heebo");
+
+body * {
+  font-family: "Heebo", sans-serif;
+  outline    : none !important;
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+a,
+a:hover {
+  color          : initial;
+  text-decoration: none;
+}
+
+.header {
+  box-shadow   : 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 7px 7px;
+  padding      : 20px;
+  margin-bottom: 40px;
+}
+
+.header img {
+  height: 50px;
+}
+
+h1 {
+  color      : #505050;
+  font-size  : 36px;
+  font-weight: 700;
+  margin     : 0;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding         : 0;
+  font-size       : 14px;
+  color           : #808080;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item.active * {
+  color: #e27537 !important;
+}
+
+.breadcrumb-item,
+.breadcrumb-item * {
+  color: #808080 !important;
+}
+
+.custom-wrapper {
+  padding: 20px;
+}
+
+p {
+  color      : #505050;
+  font-size  : 16px;
+  font-weight: 400;
+}
+
+h2 {
+  color      : #505050;
+  font-weight: 700;
+  font-size  : 24px;
+}
+
+.map-wrapper {
+  width : calc(100% + 15px);
+  height: 100%;
+  border: 0;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+label {
+  font-size  : 20px;
+  font-weight: 400;
+  color      : #808080;
+}
+
+.image-button {
+  text-shadow        : 0 4px 10px rgba(0, 0, 0, 0.8);
+  color              : #ffffff;
+  font-size          : 20px;
+  font-weight        : 700;
+  border-radius      : 30px;
+  box-shadow         : 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color   : #d8d8d8;
+  border             : none;
+  padding            : 15px 40px;
+  background-size    : cover;
+  background-position: center center;
+  margin             : 0 10px;
+}
+
+.seprator {
+  margin          : 80px 0;
+  background-color: #f5f5f5;
+  height          : 20px;
+}
+
+footer {
+  background-image: linear-gradient(to right, #d85434 0%, #ed9737 52%, #d85434 100%);
+  padding-bottom  : 36px;
+  margin-top      : 60px;
+}
+
+.footer-contact-text {
+  color      : #ffffff;
+  font-family: Arial;
+  font-size  : 15px;
+  line-height: 20px;
+}
+
+.footer-contact-button {
+  background-color: #ffffff;
+  border          : 1px solid #d3d3d3;
+  border-radius   : 5px;
+  padding         : 7px 6px;
+  font-size       : 13px;
+  font-family     : Arial;
+  color           : #e27537;
+  font-weight     : 700;
+}
+
+.copyright-label {
+  color         : #ffffff;
+  font-family   : Arial;
+  font-size     : 11px;
+  font-weight   : 700;
+  line-height   : 20px;
+  text-transform: uppercase;
+}
+
+.footer-links a {
+  font-family   : Arial;
+  font-size     : 11px;
+  font-weight   : 700;
+  line-height   : 20px;
+  text-transform: uppercase;
+  color         : #000000;
+}
+
+.footer-links label {
+  background-color: rgba(255, 255, 255, 0.4);
+  height          : 11px;
+  width           : 1px;
+  margin          : 0 10px;
+}
+
+.custom-card {
+  box-shadow      : 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius   : 10px;
+  background-color: #ffffff;
+  margin-bottom   : 30px;
+}
+
+.custom-card-image {
+  background-position: center center;
+  border-radius      : 10px 0 0 10px;
+  background-size    : cover;
+}
+
+.custom-card-content {
+  padding: 30px;
+}
+
+.card-detail-btn {
+  background-color: #ffffff;
+  border-radius   : 23px;
+  text-transform  : uppercase;
+  font-weight     : 400;
+  font-size       : 16px;
+  color           : #e27537;
+  padding         : 10px 30px;
+  border          : solid 5px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    linear-gradient(101deg, #d85434, #ed9737);
+  background-origin: border-box;
+  background-clip  : content-box, border-box;
+  border           : solid 3px transparent;
+  box-shadow       : 2px 1000px 1px #fff inset;
+}
+
+.card-detail-btn:hover {
+  box-shadow: none;
+  color     : white;
+}
+
+.card-links {
+  font-size     : 12px;
+  font-weight   : 400;
+  text-transform: uppercase;
+  color         : #808080;
+  cursor        : pointer;
+}
+
+.card-links img {
+  width       : 18px;
+  margin-right: 5px;
+}
+
+.all-details-wrapper {
+  box-shadow      : 0 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius   : 10px;
+  background-color: #ffffff;
+  position        : absolute;
+  z-index         : 999;
+  top             : 60px;
+  width           : max-content;
+  max-width       : 670px;
+  text-align      : left;
+}
+
+.close-all-details-wrapper {
+  position : absolute;
+  top      : 15px;
+  right    : 15px;
+  cursor   : pointer;
+  font-size: 20px;
+}
+
+.all-details-content {
+  padding: 30px;
+}
+
+h3 {
+  color      : #505050;
+  font-size  : 20px;
+  font-weight: 700;
+}
+
+.footer-links-wrapper {
+  margin-top: 40px;
+}
+
+.custom-modal-relative-wrapper {
+  position: relative;
+}
+
+.show-desktop {
+  display: initial;
+}
+
+.cities-label {
+  float      : left;
+  line-height: 48px;
+}
+
+.my-custom-pagination {
+  float: right;
+}
+
+.my-custom-pagination li a {
+  padding         : 5px;
+  border          : 1px solid #e27537;
+  background-color: #fff;
+  margin          : 0 2px;
+  border-radius   : 2px;
+}
+
+.my-custom-pagination li.active a {
+  border          : 1px solid #e27537;
+  background-color: #e27537;
+  color           : #fff;
+}
+
+.my-custom-pagination li.disabled a {
+  background-color: transparent;
+  border          : none;
+}
+
+.v-popper__inner {
+  color           : #000000 !important;
+  background-color: #fff !important;
+  box-shadow      : 0 20px 50px rgba(0, 0, 0, 0.2);
+  max-width       : 300px;
+  border: 2px solid #f5f5f5;
+}
+
+/* .v-popper__arrow {
+  border-color: #fff !important;
+} */
+
+@media (min-width: 992px) and (max-width: 1450px) {
+  .header img {
+    height: 35px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .image-button {
+    font-size: 16px;
+    padding  : 12px 25px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  .categories-link-tab .image-button {
+    padding: 12px 20px;
+    margin : 0 5px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .adjust-header-wrap-tab {
+    margin: 0;
+  }
+
+  .header {
+    margin-right: -15px;
+    margin-left : -15px;
+  }
+
+  .no-padding-tab {
+    padding-left : 0;
+    padding-right: 0;
+  }
+
+  .text-center-tab {
+    text-align: center;
+  }
+
+  .breadcrumb-tab {
+    width : fit-content;
+    margin: auto;
+  }
+
+  .map-wrapper {
+    width      : calc(100% + 30px);
+    margin-left: -15px;
+    height     : 600px;
+  }
+
+  label {
+    display   : block;
+    text-align: center;
+  }
+
+  .image-button {
+    padding: 15px 35px;
+  }
+
+  .image-btn-wrapper>label {
+    margin-bottom: 16px !important;
+    margin-right : 0 !important;
+  }
+
+  .custom-card-image {
+    background-image: none !important;
+  }
+
+  .custom-card-image img {
+    width        : 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .custom-card-content {
+    text-align: center;
+  }
+
+  .categories-link-tab label {
+    margin-bottom: 16px !important;
+  }
+
+  .categories-link-tab .image-button {
+    margin-bottom: 30px;
+  }
+
+  .footer-links {
+    margin-left: 0 !important;
+  }
+
+  .footer-links label {
+    display: inline-block;
+  }
+
+  .footer-links-wrapper {
+    margin-top: 10px;
+  }
+
+  footer {
+    padding-bottom: 5px;
+  }
+
+  .all-details-wrapper {
+    max-width: 640px;
+  }
+
+  .show-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .map-wrapper {
+    height: 300px;
+  }
+
+  .image-btn-wrapper>.image-button {
+    width : 44%;
+    margin: 0 2% 20px 2%;
+  }
+
+  .seprator {
+    margin: 60px 0;
+  }
+
+  .categories-link-wrapper-mobile {
+    padding-left : 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .custom-modal-relative-wrapper {
+    width      : calc(100% + 60px);
+    margin-left: -30px;
+  }
+
+  .all-details-wrapper {
+    max-width: fit-content;
+  }
+}
